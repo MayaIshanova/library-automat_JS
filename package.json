@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cucumber-js",
-    "test:tag": "npx cucumber-js --tags @lib-01",
+    "test:tag": "npx cucumber-js --tags @lib-01-03",
     "Mac-open:report": "open test-reports/cucumber-report.html",
     "Windows-open:report": "start test-reports/cucumber-report.html"
   },
@@ -13,8 +13,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@cucumber/cucumber": "^10.8.0",
-    "@playwright/test": "^1.45.3",
+    "@cucumber/cucumber": "^10.9.0",
+    "@playwright/test": "^1.48.0",
     "dotenv": "^16.4.5"
   },
   "type": "module"
